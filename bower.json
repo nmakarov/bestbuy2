@@ -1,0 +1,26 @@
+{
+  "name": "bestbuy2",
+  "version": "0.0.0",
+  "authors": [
+    "Nick Makarov <nmakarov@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "dependencies": {
+    "handlebars": "~2.0.0",
+    "requirejs": "~2.1.15",
+  },
+  "devDependencies": {
+    "gulp": "~3.8.10"
+  }
+}
