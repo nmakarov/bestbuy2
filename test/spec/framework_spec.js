@@ -35,7 +35,7 @@ define(['framework'], function(app) {
     describe("View", function () {
 
       it("is defined", function() {
-        expect(app.View).not().toBeDefined();
+        expect(app.View).toBeDefined();
       });
 
 
