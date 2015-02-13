@@ -1,0 +1,25 @@
+<div class="modal fade" id="detailsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+
+			<div class="modal-header">
+				<button type="button" class="close js-close">&times;</button>
+				<h2 class="modal-title">{{name}}</h2>
+			</div>
+
+			<div class="modal-body">
+				<img
+						src="http://www.bestbuy.ca/{{thumbnailImage}}" 
+						alt="{{name}}">
+				<div class="description">{{shortDescription}}</div>
+				<!-- <div class="price">{{product.salePrice}}</div> -->
+				<h2 class="modal-title price"> <span class="label label-default">${{salePrice}}</span></h2>
+			</div>
+
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default js-close">Close</button>
+			</div>
+
+		</div>
+	</div>
+</div>

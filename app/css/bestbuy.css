@@ -1,0 +1,34 @@
+.productName {
+  font-weight: bold;
+  height: 4em;
+  overflow-y: hidden;
+}
+
+.thumbnail>img {
+  height:150px;
+  width:100px;
+}
+
+.productActions {
+  margin-top:15px;
+  margin-bottom:5px;
+  margin-right: 5px;
+  text-align: right;
+}
+
+.modal {
+  display: block;
+}
+
+.modal-body > img {
+  float:left;
+  padding-right:20px;
+}
+
+.modal-body > .description {
+  padding-bottom: 20px;
+}
+
+.modal-body > .price {
+  text-align: right;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "bestbuy2",
+  "version": "0.0.0",
+  "description": "BestBuy Assignment ==================",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nmakarov/bestbuy2.git"
+  },
+  "author": "Nick Makarov <nmakarov@gmail.com> (http://nmakarov.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmakarov/bestbuy2/issues"
+  },
+  "homepage": "https://github.com/nmakarov/bestbuy2"
+}
